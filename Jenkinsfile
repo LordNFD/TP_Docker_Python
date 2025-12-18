@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME      = "sum-python-app"
         CONTAINER_NAME  = "sum_container_${BUILD_NUMBER}"
         TEST_FILE_PATH  = "test_variables.txt"
-        DOCKERHUB_IMAGE = "Franckdylan/sum-python-app"
+        DOCKERHUB_IMAGE = "LordNFD/sum-python-app"
     }
 
     stages {
@@ -81,3 +81,4 @@ pipeline {
         }
     }
 }
+
